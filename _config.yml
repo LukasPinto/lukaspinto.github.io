@@ -6,18 +6,18 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: es-ES
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: Asia/Shanghai
+timezone: America/Santiago
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Lukas Pinto # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
 
+tagline: Estudiante de Ingenieria Civil informatica y entusiasta de la cyberseguridad y los CTF's # it will display as the sub-title
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
@@ -26,19 +26,19 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your github username
+  username: LukasPinto # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: lukaspintogonzalez@gmail.com # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Lukas Pinto
+  email: lukaspintogonzalez@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    #- https://twitter.com/username # change to your twitter homepage
     - https://github.com/username # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -63,7 +63,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -112,9 +112,9 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
+baseurl: ""
 
 kramdown:
   syntax_highlighter: rouge
