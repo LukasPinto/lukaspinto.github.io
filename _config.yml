@@ -14,7 +14,7 @@ timezone: America/Santiago
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Lukas Pinto # the main title
+title: Kanekik # the main title
 
 
 tagline: Estudiante de Ingenieria Civil informatica y entusiasta de la cyberseguridad y los CTF's # it will display as the sub-title
@@ -29,7 +29,7 @@ github:
   username: LukasPinto # change to your github username
 
 twitter:
-  username: lukaspintogonzalez@gmail.com # change to your twitter username
+  username: LukasPintog # change to your twitter username
 
 social:
   # Change to your full name.
@@ -38,10 +38,10 @@ social:
   email: lukaspintogonzalez@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    #- https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    #- https://app.hackthebox.com/profile/824616 # change to your twitter homepage
+    - https://github.com/LukasPinto # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    #- https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
 google_site_verification: # fill in to your verification string
@@ -73,7 +73,7 @@ theme_mode: dark # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /images/portada.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
