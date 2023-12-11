@@ -3,11 +3,10 @@ title: HMV - Minimal - Writeup
 author: lukas
 date: 2023-12-10 12:00:00 +0800
 categories: [HMV]
-tags: [BufferOverflow,LFI,Scripting]
+tags: [bufferOverflow,lfi,scripting]
 pin: true
 image:
     path: /images/2023-12-10-HVM-Minimal/minimal.png
-    lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
 ---
 ## Enumeración
 
@@ -46,7 +45,7 @@ Al momento de hacer una compra me fijo en la url, la cual en base al parametro a
 
 Y efectivamente es un LFI y si nos fijamos bien parece ser que le está concatenando la extensión `.php` al final y se está interpretando, en base a esto se me ocurre probar con wrappers a para ver si puedo incluir un archivo local de la maquina en base64 y luego le hago un decode en mi equipo para ver su contenido.
 
-[`http://192.168.1.43/shop_cart.php?action=php://filter/convert.base64-encode/resource=index`](http://192.168.1.43/shop_cart.php?action=php://filter/convert.base64-encode/resource=index)
+`http://192.168.1.43/shop_cart.php?action=php://filter/convert.base64-encode/resource=index`
 
 ![Untitled](/images/2023-12-10-HVM-Minimal/Untitled%206.png)
 
