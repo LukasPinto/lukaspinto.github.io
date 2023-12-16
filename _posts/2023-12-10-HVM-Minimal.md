@@ -1,8 +1,8 @@
 ---
-title: HMV - Minimal - Writeup
+title: HackMyVM - Minimal - Writeup
 author: lukas
 date: 2023-12-10 12:00:00 +0800
-categories: [HMV]
+categories: [HackMyVM]
 tags: [bufferOverflow,LFI,Scripting]
 pin: true
 image:
