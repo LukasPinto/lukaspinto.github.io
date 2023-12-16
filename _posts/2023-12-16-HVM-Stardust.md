@@ -3,7 +3,7 @@ title: HackMyVM - Stardust - Writeup
 author: lukas
 date: 2023-12-16 12:00:00 +0800
 categories: [HackMyVM]
-tags: [LFI,GLPI,Scripting,ACL]
+tags: [Upload Bypass,Default Credentials,Cracking Hash,GLPI,Scripting,ACL]
 pin: true
 image:
     path: /images/2023-12-16-HVM-Stardust/stardust.png

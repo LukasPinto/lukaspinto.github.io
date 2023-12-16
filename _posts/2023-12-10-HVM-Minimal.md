@@ -3,7 +3,7 @@ title: HackMyVM - Minimal - Writeup
 author: lukas
 date: 2023-12-10 12:00:00 +0800
 categories: [HackMyVM]
-tags: [bufferOverflow,LFI,Scripting]
+tags: [Buffer Overflow,LFI,Scripting]
 pin: true
 image:
     path: /images/2023-12-10-HVM-Minimal/minimal.png
