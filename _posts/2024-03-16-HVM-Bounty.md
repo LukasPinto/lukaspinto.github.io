@@ -3,7 +3,7 @@ title: HackMyVM - Bounty - Writeup
 author: lukas
 date: 2024-03-16 12:00:00 +0800
 categories: [HackMyVM]
-tags: [Gitea,MSF,Cron Task]
+tags: [Gitea,Metasploit,Cron Task]
 pin: true
 image:
     path: /images/2024-03-16-HVM-Bounty/bounty.png
