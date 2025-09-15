@@ -14,7 +14,7 @@ timezone: America/Santiago
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Kanekik # the main title
+title: Lukas Blog # the main title
 
 
 tagline: Estudiante de Ingenieria Civil informatica y entusiasta de la ciberseguridad y los CTF's # it will display as the sub-title
